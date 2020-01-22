@@ -7,7 +7,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "role")
-@Data
+@Data //activate lombok
 public class Role implements Serializable {
 
     @Id
